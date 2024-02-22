@@ -1,0 +1,74 @@
+{
+    "nombre": "Daniel Quinayás Tello",
+    "profesion": "Full Stack Developer",
+    "ubicacion": "Colombia, Santiago de Cali",
+    "telefono": 3023443586,
+    "correo": "daniel.qui.tello@gmail.com",
+    "linkedin": "https://linkedin.com/in/daniel-quinayas-tello/",
+    "github": "https://github.com/danieltelo95",
+    "descripcion": "Fusiono habilidades de pensamiento crítico y analítico para crear soluciones innovadoras. Especializado en el desarrollo front-end con experiencia en proyectos full Stack.",
+    "proyectos": [
+      {
+        "nombre": "Front end Mobile Developer  Ajugar",
+        "fecha": "Oct. 2023 ",
+        "descripcion": "Experiencia académica. Henry Bootcamp. Como Desarrollador Jr. Front-End, he contribuido significativamente al desarrollo de una aplicación próxima a lanzarse en la PlayStore, centrada en la creación y administración de eventos deportivos. Mi papel incluyó el desarrollo de la interfaz de usuario utilizando Flutter y Dart, donde tuve la responsabilidad de dar forma a la imagen visual de la aplicación.",
+        "tareas": [
+          "Desarrollar una imagen de la app utilizando Flutter",
+          "Dibujar el diseño y reproducir la UI para la app.",
+          "Utilizar espacios de organización de trabajo como Github, Figma, Trello y Asana."
+        ],
+        "tecnologias": {
+          "front": "Flutter - Dart"
+        }
+      },
+      {
+        "nombre": "Black group design",
+        "fecha": "Oct. 2023 - Nov. 2023",
+        "descripcion": "Experiencia académica. Henry Bootcamp. E-commerce dedicado a la fabricación y venta de muebles, así como de decorados, con una pasarela de pagos donde los usuarios pueden comprar directamente usando mercado pago.",
+        "tareas": [
+          "Desarrollar un E-commerce especializado en muebles y decorados",
+          "Implementar un panel de administrador con gráficas importantes para el modelo de negocio usando chart js",
+          "Utilizar espacios de organización de trabajo como Jira, Figma y Trello"
+        ],
+        "tecnologias": {
+          "front": "Vite - React",
+          "back": "Express js, Node js",
+          "baseDatos": "PostgreSQL y Sequelize"
+        },
+        "enlace": "https://blackgroupdesing.vercel.app/"
+      },
+      {
+        "nombre": "Fundador Kao Vital",
+        "fecha": "Jun. 2017  Ene. 2023",
+        "descripcion": "Como creador y fundador de una empresa de cosmética verde, lideré de manera exitosa un equipo de cuatro personas en la organización y desarrollo integral del proyecto. Mi papel central consistió en establecer una visión clara, objetivos estratégicos y un enfoque colaborativo para alcanzar el éxito en ventas y la obtención de recursos. Implementé metodologías ágiles para garantizar la eficiencia operativa, utilizando herramientas como Notion y Trello para la gestión de proyectos y el seguimiento del progreso. Mi enfoque de liderazgo se centró en motivar y guiar al equipo hacia la consecución de metas, medido mediante indicadores clave de rendimiento (OKRs)."
+      }
+    ],
+
+    "tecnologias": {
+      "lenguajes": ["JavaScript"],
+      "frameworks": ["Node js", "Express js", "React", "Vite", "Redux"],
+      "baseDatos": ["PostgreSQL", "Sequelize"],
+      "herramientas": ["Git", "Jira", "Confluence", "Slack"],
+      "metodologia": "Agile (Scrum)"
+    },
+
+    "educacion": [
+      {
+        "titulo": "Full Stack Web Developer",
+        "institucion": "Henry Bootcamp",
+        "fecha": "2023",
+        "descripcion": "Realicé 800 horas de formación teórico-práctica, adquiriendo habilidades en desarrollo web front-end y back-end. Colaboré en proyectos prácticos, aplicando metodologías ágiles y utilizando tecnologías como React, Node.js y PostgreSQL. Obtuve experiencia en trabajo colaborativo, resolución de problemas y desarrollo de soluciones innovadoras."
+      },
+      {
+        "titulo": "Profesional en Química",
+        "institucion": "Universidad Santiago de Cali",
+        "fecha": "2021",
+        "descripcion": "Destacado desempeño académico con énfasis en Química y Química de Productos Verdes. Participé activamente en grupos de estudios dedicados a la enseñanza, siendo presidente del grupo de estudio de Química, mostrando capacidades de liderazgo que permitieron mantener resultados óptimos entre los estudiantes. Mi formación en química ha fortalecido mi capacidad analítica y pensamiento crítico, habilidades transferibles que complementan mi carrera en desarrollo web."
+      }
+    ],
+    
+    "idiomas": {
+      "ingles": "C1 - Avanzado"
+    }
+  }
+  

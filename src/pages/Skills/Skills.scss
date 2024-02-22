@@ -1,0 +1,28 @@
+.skills-container {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+  }
+
+  .skills-container h2{
+    margin-bottom: 3rem;
+  }
+
+  .skill-image {
+    position: relative;
+    width: 8rem; /* Tamaño deseado */
+    height: 8rem; /* Tamaño deseado */
+    margin: 15px; 
+    filter: brightness(50%) grayscale(60%); /* Convierte la imagen en blanco y negro */
+}
+
+.skill-image:hover {
+    filter: none; /* Elimina el efecto blanco y negro al pasar el ratón sobre la imagen */
+}

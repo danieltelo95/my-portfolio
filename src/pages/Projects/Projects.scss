@@ -1,0 +1,44 @@
+.project-video-container {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5rem;
+  }
+
+  
+  .project-video{
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-details {
+    flex: 1;
+    color: whitesmoke;
+    margin-left: 5rem;
+}
+
+.project-details p{
+    margin-top: 0;
+}
+
+.project-details .project-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.project-details .project-date {
+  font-style: italic;
+  margin-top: 0.5rem; // Ajuste de margen para el segundo párrafo
+}
+
+.project-details .project-description {
+  margin-top: 0.5rem; // Ajuste de margen para el tercer párrafo
+}
+
+ h2 {
+    color: whitesmoke; /* Color del texto */
+    font-size: 3rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    margin-bottom: 2rem; /* Margen inferior */
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
