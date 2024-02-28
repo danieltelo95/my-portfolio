@@ -1,14 +1,29 @@
 .about-container {
-    font-family: 'Arial', sans-serif;
-    font-size: 22px;
-    line-height: 1.5;
-    color: whitesmoke;
-    text-align: center;
-    margin: 20px 0;
-    white-space: pre-line;
-  
-    p {
-      margin-bottom: 10px;
-    }
+  position: relative;
+  font-family:  'Montserrat thin';
+  font-size: 22px;
+  line-height: 1.5;
+  color: whitesmoke;
+  text-align: center;
+  margin: 3rem 0 0 3rem;
+  white-space: pre-line;
+
+  p {
+    margin-bottom: 3rem;
   }
-  
+
+  .photo {
+    width: 25rem; 
+    height: 25rem; 
+    margin-top: 3rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+  }
+
+  .photo:hover{
+    transform: translateY(-10%);
+  }
+
+
+}

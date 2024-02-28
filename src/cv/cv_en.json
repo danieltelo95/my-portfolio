@@ -1,74 +1,70 @@
 {
-    "nombre": "Daniel Quinayás Tello",
-    "profesion": "Full Stack Developer",
-    "ubicacion": "Colombia, Santiago de Cali",
-    "telefono": 3023443586,
-    "correo": "daniel.qui.tello@gmail.com",
-    "linkedin": "linkedin.com/in/daniel-quinayas-tello/",
-    "github": "github.com/danieltelo95",
-    "descripcion": "Full Stack developer with a solid background in chemistry, blending critical and analytical thinking skills to create innovative solutions. Specialized in front-end development with experience in full-stack projects. Proficient in agile methodologies, GIT, data structures, frameworks, CSS, JavaScript, React, Node JS, Vite, Redux, Express, PostgreSQL, Flutter. I am a proactive problem solver, bringing creativity and efficiency to challenges. My adaptability shines in dynamic environments, while effective communication facilitates collaboration. Consider myself an innovator, constantly seeking learning opportunities to stay updated. Certified C1 in English for fluid communication in professional environments.",
-    "proyectos": [
+  "name": "Daniel Quinayás Tello",
+  "profession": "Full Stack Developer",
+  "location": "Colombia, Santiago de Cali",
+  "phone": 3023443586,
+  "email": "daniel.qui.tello@gmail.com",
+  "linkedin": "https://linkedin.com/in/daniel-quinayas-tello/",
+  "github": "https://github.com/danieltelo95",
+  "description": "I merge critical and analytical thinking skills to create innovative solutions. Specialized in front-end development with experience in full-stack projects.",
+  "projects": [
       {
-        "nombre": "Front-end Mobile Developer  Ajugar",
-        "fecha": "Oct. 2023  Present",
-        "descripcion": "Academic experience. Henry Bootcamp. As a Jr. Front-End Developer, I have significantly contributed to the development of an upcoming application on the PlayStore, focusing on the creation and management of sports events. My role included UI development using Flutter and Dart, where I was responsible for shaping the visual image of the application.",
-        "tareas": [
-          "Develop the app's image using Flutter.",
-          "Design and reproduce the UI for the app.",
-          "Utilize workspace tools such as Github, Figma, Trello, and Asana."
-        ],
-        "tecnologias": {
-          "front": "Flutter - Dart"
-        }
+          "name": "Front end Mobile Developer Ajugar",
+          "date": "Oct. 2023",
+          "description": "Academic experience. Henry Bootcamp. As a Jr. Front-End Developer, I significantly contributed to the development of an upcoming app on PlayStore, focusing on creating and managing sports events. My role involved developing the user interface using Flutter and Dart, where I was responsible for shaping the visual image of the app.",
+          "tasks": [
+              "Developing app layout using Flutter",
+              "Designing and implementing UI for the app.",
+              "Utilizing work organization spaces like Github, Figma, Trello, and Asana."
+          ],
+          "technologies": {
+              "front": "Flutter - Dart"
+          }
       },
       {
-        "nombre": "Full Stack Web Developer  Black group design",
-        "fecha": "Oct. 2023  Nov. 2023",
-        "descripcion": "Academic experience. Henry Bootcamp. E-commerce dedicated to the manufacturing and sale of furniture and decorations, with a payment gateway where users can buy directly using MercadoPago.",
-        "tareas": [
-          "Develop a specialized E-commerce for furniture and decorations.",
-          "Implement an admin panel with important business model charts using Chart.js.",
-          "Utilize workspace tools like Jira, Figma, and Trello."
-        ],
-        "tecnologias": {
-          "front": "Vite - React",
-          "back": "Express.js, Node.js",
-          "baseDatos": "PostgreSQL and Sequelize"
-        },
-        "enlace": "https://blackgroupdesing.vercel.app/"
+          "name": "Black group design",
+          "date": "Oct. 2023 - Nov. 2023",
+          "description": "Academic experience. Henry Bootcamp. E-commerce dedicated to manufacturing and selling furniture, as well as decorations, with a payment gateway where users can make direct purchases using MercadoPago.",
+          "tasks": [
+              "Developing an E-commerce specialized in furniture and decorations",
+              "Implementing an admin panel with important charts for the business model using chart js",
+              "Utilizing work organization spaces like Jira, Figma, and Trello"
+          ],
+          "technologies": {
+              "front": "Vite - React",
+              "back": "Express js, Node js",
+              "database": "PostgreSQL and Sequelize"
+          },
+          "link": "https://blackgroupdesing.vercel.app/"
       },
       {
-        "nombre": "Founder Kao Vital",
-        "fecha": "Jun. 2017  Jan. 2023",
-        "descripcion": "As the creator and founder of a green cosmetics company, I successfully led a team of four people in the organization and integral development of the project. My central role involved establishing a clear vision, strategic objectives, and a collaborative approach to achieve success in sales and resource acquisition. I implemented agile methodologies to ensure operational efficiency, using tools like Notion and Trello for project management and progress tracking. My leadership approach focused on motivating and guiding the team towards goal achievement, measured through key performance indicators (OKRs)."
+          "name": "Founder Kao Vital",
+          "date": "Jun. 2017 - Jan. 2023",
+          "description": "As the creator and founder of a green cosmetics company, I successfully led a team of four people in the organization and comprehensive development of the project. My central role involved establishing a clear vision, strategic objectives, and a collaborative approach to achieve success in sales and resource acquisition. I implemented agile methodologies to ensure operational efficiency, using tools like Notion and Trello for project management and progress tracking. My leadership approach focused on motivating and guiding the team towards goal achievement, measured through key performance indicators (OKRs)."
       }
-    ],
-
-    "tecnologias": {
-      "lenguajes": ["JavaScript"],
-      "frameworks": ["Node.js", "Express.js", "React", "Vite", "Redux"],
-      "baseDatos": ["PostgreSQL", "Sequelize"],
-      "herramientas": ["Git", "Jira", "Confluence", "Slack"],
-      "metodologia": "Agile (Scrum)"
-    },
-
-    "educacion": [
+  ],
+  "technologies": {
+      "languages": ["JavaScript"],
+      "frameworks": ["Node js", "Express js", "React", "Vite", "Redux"],
+      "databases": ["PostgreSQL", "Sequelize"],
+      "tools": ["Git", "Jira", "Confluence", "Slack"],
+      "methodology": "Agile (Scrum)"
+  },
+  "education": [
       {
-        "titulo": "Full Stack Web Developer",
-        "institucion": "Henry Bootcamp",
-        "fecha": "2023",
-        "descripcion": "Completed 800 hours of theoretical-practical training, acquiring skills in front-end and back-end web development. Collaborated on practical projects, applying agile methodologies and using technologies like React, Node.js, and PostgreSQL. Gained experience in collaborative work, problem-solving, and innovative solution development."
+          "title": "Full Stack Web Developer",
+          "institution": "Henry Bootcamp",
+          "date": "2023",
+          "description": "I completed 800 hours of theoretical-practical training, acquiring skills in front-end and back-end web development. I collaborated on practical projects, applying agile methodologies and using technologies like React, Node.js, and PostgreSQL. I gained experience in collaborative work, problem-solving, and developing innovative solutions."
       },
       {
-        "titulo": "Professional in Chemistry",
-        "institucion": "Universidad Santiago de Cali",
-        "fecha": "2021",
-        "descripcion": "Outstanding academic performance with an emphasis on Chemistry and Green Product Chemistry. Actively participated in study groups dedicated to teaching, serving as the president of the Chemistry study group, showcasing leadership abilities that maintained optimal results among students. My chemistry education has strengthened my analytical and critical thinking skills, transferable skills that complement my career in web development."
+          "title": "Professional in Chemistry",
+          "institution": "Universidad Santiago de Cali",
+          "date": "2021",
+          "description": "Outstanding academic performance with an emphasis on Chemistry and Green Product Chemistry. I actively participated in study groups dedicated to teaching, being the president of the Chemistry study group, demonstrating leadership abilities that helped maintain optimal results among students. My education in chemistry has strengthened my analytical and critical thinking skills, transferable skills that complement my career in web development."
       }
-    ],
-    
-    "idiomas": {
-      "ingles": "C1 - Advanced"
-    }
+  ],
+  "languages": {
+      "english": "C1 - Advanced"
   }
-  
+}
