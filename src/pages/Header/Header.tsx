@@ -2,7 +2,7 @@
 import React from "react";
 import { FormattedMessage } from 'react-intl';
 import docu from '../../my_cv/daniel.pdf';
-
+import './Header.scss';
 
 interface HeaderProps {
   switchLanguage: () => void;
@@ -11,13 +11,13 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ switchLanguage, currentLanguage }) => {  
   return(
-    <div>   
-      <button onClick={switchLanguage}>
+    <div className="header-container">   
+      <button className="language-button" onClick={switchLanguage}>
         {currentLanguage === 'es' ? 'English' : 'Español'}
       </button>
-      <a href={docu} target="_blank" rel="noopener noreferrer">
-        <FormattedMessage id="about.downloadCV" defaultMessage="Download CV" />
-      </a>
+      <button className="language-button" onClick={() => window.open(docu, '_blank')} type="button">
+      {currentLanguage === "en" ? "Download CV" : "Descargar CV"}
+      </button>
     </div>
   );
 }

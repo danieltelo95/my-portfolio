@@ -1,0 +1,16 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.language-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: #31ac0c;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+

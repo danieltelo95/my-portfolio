@@ -3,6 +3,7 @@ import './Projects.scss'
 import cv from '../../cv/cv_es.json'
 import cv_eng from '../../cv/cv_en.json'
 import { useIntl } from "react-intl";
+
 const Projects:React.FC< {videoId: string}> = ({videoId}) => {
 
     const intl = useIntl();
