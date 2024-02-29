@@ -6,23 +6,22 @@
   text-align: center;
   margin: 3rem 3rem 3rem 3rem;
   white-space: pre-line;
+}
 
-  p {
-    margin-bottom: 3rem;
-  }
+.about-container p {
+  margin-bottom: 3rem;
+}
 
 .photo {
-  width: 15rem; 
-  height: 15rem; 
+  width: 15rem;
+  height: 15rem;
   margin-top: 3rem;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s ease; /* Transición suave para el cambio de escala */
+  transition: transform 0.5s ease; /* Agregar una transición suave para el cambio de escala */
   transform-origin: center; /* El punto de transformación es el centro de la imagen */
 }
 
 .photo:hover {
   transform: scale(1.2); /* Aumentar el tamaño al hacer hover */
-}
-
 }
