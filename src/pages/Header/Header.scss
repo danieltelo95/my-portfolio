@@ -1,16 +1,30 @@
-/* Header.css */
 .header-container {
   display: flex;
   align-items: center;
 }
 
 .language-button {
-  padding: 10px 20px;
-  margin-right: 10px;
-  border: none;
-  background-color: #31ac0c;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+  background-color: #1e3a5e; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: 1px solid #1e3a5e; /* Borde sólido del mismo color que el fondo */
+  border-color: antiquewhite;
+  padding: 0.5rem 1rem; /* Ajustar el relleno según sea necesario */
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1rem; /* Tamaño del texto */
+  border-radius: 5px; /* Agregar bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Agregar transición suave al color de fondo */
 }
 
+.language-button:hover {
+  background-color: #0d2645; /* Color de fondo al pasar el mouse */
+  border-color: #0d2645; /* Cambiar color del borde al pasar el mouse */
+}
+
+.language-button:focus {
+  outline: none; /* Elimina el contorno al enfocar el botón */
+}
+
+.language-button:active {
+  transform: translateY(1px); /* Agrega un efecto de clic al presionar el botón */
+}
