@@ -1,11 +1,33 @@
 body {
   margin: 0;
   height: 100vh;
-  font-weight: 100;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
   background: radial-gradient(rgba(8, 6, 22, 0.9), rgba(2, 39, 44, 0.9)), url('./assets/images/space4_bg.png') center/cover no-repeat;
   overflow-y: auto; 
   -webkit-animation: fadeIn 1s ease-out;
   -moz-animation: fadeIn 1s ease-out;
   -o-animation: fadeIn 1s ease-out;
   animation: fadeIn 1s ease-out;
+}
+
+h1, h2 {
+  font-family: 'Libre Baskerville', sans-serif; /* Usa la fuente Libre Baskerville para h1 y h2 */
+}
+
+.language-button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Eliminar borde */
+  padding: 0.5rem 1rem; /* Ajustar el relleno según sea necesario */
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1rem; /* Tamaño del texto */
+  border-radius: 5px; /* Agregar bordes redondeados */
+  cursor: pointer; /* Cambiar cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Agregar transición suave al color de fondo */
+}
+
+.language-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
 }

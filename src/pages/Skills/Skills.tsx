@@ -16,7 +16,7 @@ const Skills:React.FC< {imageUrls: string[]}> = ({ imageUrls }) => {
               
                     <img className="skill-image" key={index} src={url} alt={`Image ${index}`} />
 
-                    ))}
+                ))}
                     
             </div>
 
