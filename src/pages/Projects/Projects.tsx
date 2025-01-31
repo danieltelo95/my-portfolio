@@ -4,35 +4,43 @@ import cv from '../../cv/cv_es.json'
 import cv_eng from '../../cv/cv_en.json'
 import { useIntl } from "react-intl";
 
-const Projects:React.FC< {videoId: string}> = ({videoId}) => {
+const Projects: React.FC = () => {
 
     const intl = useIntl();
     const currentLocale = intl.locale;
-    const nombreProyecto = cv.proyectos[1].nombre;
-    const fechaProyecto = cv.proyectos[1].fecha;
-    const descripcionProyecto = cv.proyectos[1].descripcion
-    const projectName = cv_eng.projects[1].name;
-    const projectDate = cv_eng.projects[1].date;
-    const projectDescription = cv_eng.projects[1].description
-    
+    const projects = currentLocale === 'en' ? cv_eng.projects : cv.proyectos;
+
     return (
-        
-            <><h2> {currentLocale === "en" ? "Projects" : "Proyectos"} </h2>
+        <>
+            <h2> {currentLocale === "en" ? "Projects" : "Proyectos"} </h2>
             <div className="project-video-container ">
-            <div className="project-video">
-                <iframe
-                    width="560" height="315"
-                    src={`https://www.youtube.com/embed/${videoId}`}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                ></iframe>
-                <div className="project-details">
-                    <p>{currentLocale === "en" ? projectName : nombreProyecto}</p>
-                    <p>{currentLocale === "en" ? projectDate : fechaProyecto}</p>
-                    <p>{currentLocale === "en" ? projectDescription : descripcionProyecto}</p>                                                            
-                </div>
+                {projects.map((project, index) => (
+                    <div className="project-details" key={index}>
+                        <p>{currentLocale === "en" ? project.name : project.nombre}</p>
+                        <p>{currentLocale === "en" ? project.date : project.fecha}</p>
+                        <p>{currentLocale === "en" ? project.description : project.descripcion}</p>
+                        <a href={currentLocale === "en" ? project.link : project.enlace}
+                            target="_blank" rel="noopener noreferrer">
+                            {currentLocale === "en" ? "View project" : "Ver proyecto"}
+                        </a>
+                        <div className="project-video">
+                            {project.videoId ? (
+                                <iframe
+                                    width="560" height="315"
+                                    src={`https://www.youtube.com/embed/${project.videoId}`}
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                ></iframe>
+                            ) : project.imagen ? (
+                                <img src={project.imagen} alt={project.nombre || project.name} />
+                            ) : (
+                                <p>{currentLocale === "en" ? "No media available" : "No hay contenido multimedia"}</p>
+                            )}
+                        </div>
+                    </div>
+                ))}
             </div>
-        </div></>
+        </>
     )
 }
 

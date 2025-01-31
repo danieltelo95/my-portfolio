@@ -22,6 +22,18 @@
   transition: color 0.3s ease; /* Agregar una transición suave al cambiar el color del texto */
 }
 
+.project-details a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  display: inline-block; /* Asegura que margin funcione */
+  margin-bottom: 16px;  /* Ajusta el valor según lo necesites */
+}
+
+.project-details a:hover {
+  color: #007bff; /* Azul, puedes cambiarlo */
+}
+
 .project-details:hover {
   color: #ccc; /* Cambiar el color del texto al pasar el mouse sobre los detalles del proyecto */
 }
@@ -57,3 +69,18 @@ h2 {
 h2:hover {
   margin-left: 7rem; /* Aumentar el margen izquierdo al pasar el mouse sobre el encabezado */
 }
+
+.project-video img {
+  width: 100%;
+  max-width: 400px; /* Ajusta según el diseño */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05); /* Efecto de zoom suave */
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3); /* Sombra al pasar el mouse */
+  }
+}
+

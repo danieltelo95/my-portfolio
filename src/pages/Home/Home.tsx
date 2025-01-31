@@ -5,12 +5,12 @@ import Intro from "../Intro/Intro";
 import Skills from "../Skills/Skills";
 import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
-import './Home.scss'
 import Header from "../Header/Header";
+import './Home.scss'
 
 interface HomeProps {
   switchLanguage: () => void;
-  currentLanguage: string; // Asegúrate de agregar currentLanguage aquí
+  currentLanguage: string; 
 }
 
 const Home: React.FC<HomeProps> = ({ switchLanguage, currentLanguage }) => {
@@ -37,7 +37,7 @@ const Home: React.FC<HomeProps> = ({ switchLanguage, currentLanguage }) => {
       </div>             
       <About />
       <Skills imageUrls={imageUrls} />
-      <Projects videoId="LREzajthtd8?si=xaJsmb_TZVA4OY4X"/>
+      <Projects />
       <Contact />
     </div>
   );

@@ -9,21 +9,9 @@
   "description": "I synergize critical and analytical thinking skills to conceive and execute innovative solutions. Specializing in front-end development with experience in full-stack projects, I tackle challenges from multiple angles, delivering comprehensive and effective outcomes. Passionate about crafting meaningful digital experiences, I strive to merge creativity with functionality in every project I undertake.",
   "projects": [
       {
-          "name": "Front end Mobile Developer Ajugar",
-          "date": "Oct. 2023",
-          "description": "Academic experience. Henry Bootcamp. As a Jr. Front-End Developer, I significantly contributed to the development of an upcoming app on PlayStore, focusing on creating and managing sports events. My role involved developing the user interface using Flutter and Dart, where I was responsible for shaping the visual image of the app.",
-          "tasks": [
-              "Developing app layout using Flutter",
-              "Designing and implementing UI for the app.",
-              "Utilizing work organization spaces like Github, Figma, Trello, and Asana."
-          ],
-          "technologies": {
-              "front": "Flutter - Dart"
-          }
-      },
-      {
           "name": "Black group design",
           "date": "Oct. 2023 - Nov. 2023",
+          "videoId" : "LREzajthtd8",
           "description": "Academic experience. Henry Bootcamp. E-commerce dedicated to manufacturing and selling furniture, as well as decorations, with a payment gateway where users can make direct purchases using MercadoPago.",
           "tasks": [
               "Developing an E-commerce specialized in furniture and decorations",
@@ -38,9 +26,20 @@
           "link": "https://blackgroupdesing.vercel.app/"
       },
       {
-          "name": "Founder Kao Vital",
-          "date": "Jun. 2017 - Jan. 2023",
-          "description": "As the creator and founder of a green cosmetics company, I successfully led a team of four people in the organization and comprehensive development of the project. My central role involved establishing a clear vision, strategic objectives, and a collaborative approach to achieve success in sales and resource acquisition. I implemented agile methodologies to ensure operational efficiency, using tools like Notion and Trello for project management and progress tracking. My leadership approach focused on motivating and guiding the team towards goal achievement, measured through key performance indicators (OKRs)."
+        "name": "Black Wolf Tarot",
+        "date": "Jul. 2024 - Aug. 2024",
+        "imagen": "/tarot_image.png",
+        "description": "Freelance work. I developed a landing page for a tarot reader who offers readings and tarot courses, with an attractive and responsive design. I implemented Firebase to manage course uploads and laid the groundwork for future user authentication and an online course purchasing system.",
+        "tasks": [
+          "Design and develop an informational landing page for tarot courses.",
+          "Integrate Firebase for course management and storage.",
+          "Prepare the infrastructure for future user authentication and online course purchasing."
+        ],
+        "technologies": {
+          "front": "React, Tailwind CSS",
+          "cloud services": "Firebase (Firestore, Hosting, Authentication)"
+        },
+        "link": "https://black-wolf-gold.vercel.app/"
       }
   ],
   "technologies": {
