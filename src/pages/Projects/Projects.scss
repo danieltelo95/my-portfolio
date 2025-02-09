@@ -1,50 +1,49 @@
 .project-video-container {
-  display: flex;
-  align-items: flex-start;
+  display: block; /* Cambiar de 'flex' a 'block' para apilar los proyectos */
   margin-left: 5rem;
-  transition: margin-left 0.3s ease; /* Agregar una transición suave al cambiar el margen izquierdo */
+  transition: margin-left 0.3s ease;
 }
 
 .project-video-container:hover {
-  margin-left: 7rem; /* Aumentar el margen izquierdo al pasar el mouse sobre el contenedor */
+  margin-left: 7rem;
 }
 
 .project-video {
-  display: flex;
-  align-items: flex-start;
+  display: block; /* Cambiar a 'block' para que cada proyecto ocupe su propia fila */
+  margin-bottom: 2rem; /* Espaciado entre proyectos */
 }
 
 .project-details {
-  flex: 1;
   color: whitesmoke;
   margin-left: 3rem;
   margin-right: 3rem;
-  transition: color 0.3s ease; /* Agregar una transición suave al cambiar el color del texto */
+  transition: color 0.3s ease;
 }
 
 .project-details a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
-  display: inline-block; /* Asegura que margin funcione */
-  margin-bottom: 16px;  /* Ajusta el valor según lo necesites */
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .project-details a:hover {
-  color: #007bff; /* Azul, puedes cambiarlo */
+  color: #007bff;
 }
 
 .project-details:hover {
-  color: #ccc; /* Cambiar el color del texto al pasar el mouse sobre los detalles del proyecto */
+  color: #ccc;
 }
 
 .project-details p {
   margin-top: 0;
 }
 
-.project-details .project-title {
-  font-weight: bold;
-  font-size: 1.8rem;
+.project-title {
+  font-size: 2rem;  /* Cambia el tamaño de la fuente */
+  font-weight: bold; /* Cambia el grosor de la fuente */
+  margin-top: 1rem; /* Añade margen superior (opcional) */
 }
 
 .project-details .project-date {
@@ -63,24 +62,23 @@ h2 {
   margin-bottom: 2rem;
   margin-top: 5rem;
   margin-left: 5rem;
-  transition: margin-left 0.3s ease; /* Agregar una transición suave al cambiar el margen izquierdo del encabezado */
+  transition: margin-left 0.3s ease;
 }
 
 h2:hover {
-  margin-left: 7rem; /* Aumentar el margen izquierdo al pasar el mouse sobre el encabezado */
+  margin-left: 7rem;
 }
 
 .project-video img {
   width: 100%;
-  max-width: 400px; /* Ajusta según el diseño */
+  max-width: 400px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-
-  &:hover {
-    transform: scale(1.05); /* Efecto de zoom suave */
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3); /* Sombra al pasar el mouse */
-  }
 }
 
+.project-video img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+}

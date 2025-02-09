@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
             <div className="project-video-container ">
                 {projects.map((project, index) => (
                     <div className="project-details" key={index}>
-                        <p>{currentLocale === "en" ? project.name : project.nombre}</p>
+                        <p className="project-title">{currentLocale === "en" ? project.name : project.nombre}</p>
                         <p>{currentLocale === "en" ? project.date : project.fecha}</p>
                         <p>{currentLocale === "en" ? project.description : project.descripcion}</p>
                         <a href={currentLocale === "en" ? project.link : project.enlace}

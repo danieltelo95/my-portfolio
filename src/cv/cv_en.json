@@ -40,7 +40,23 @@
           "cloud services": "Firebase (Firestore, Hosting, Authentication)"
         },
         "link": "https://black-wolf-gold.vercel.app/"
-      }
+      },
+      {
+        "name": "Wilka Agency",
+        "date": "Feb. 2025 - Present",
+        "image": "/wilka_agency.png",
+        "description": "Freelance work. I developed a website for Wilka Agency, a webcam modeling agency. The site features a clean and modern design with an easy-to-use interface for both users and admins. I implemented user authentication with Firebase and set up the infrastructure for a model and payment management system.",
+        "tasks": [
+          "Design and develop a website for the modeling agency.",
+          "Implement user authentication using Firebase.",
+          "Create an admin interface to manage models and payments.",
+          "Prepare the site for future integrations and features, such as an online payment system."
+        ],
+        "technologies": {
+          "front": "React, Tailwind CSS"
+        },
+        "link": "https://wilkaagency.pages.dev/"
+      }      
   ],
   "technologies": {
       "languages": ["JavaScript"],

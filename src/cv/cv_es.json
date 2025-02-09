@@ -40,7 +40,23 @@
           "servicios en la nube": "Firebase (Firestore, Hosting, Autenticación)"
         },
         "enlace": "https://black-wolf-gold.vercel.app/"
-      }
+      },
+      {
+        "nombre": "Wilka Agency",
+        "fecha": "Feb. 2025 - Presente",
+        "imagen": "/wilka_agency.png",
+        "descripcion": "Trabajo Freelance. Desarrollé una página web para Wilka Agency, una agencia de modelos webcam. El sitio tiene un diseño limpio y moderno, con una interfaz fácil de usar para los usuarios y administradores. Implementé funciones de autenticación de usuarios con Firebase y preparé la infraestructura para un sistema de gestión de modelos y pagos.",
+        "tareas": [
+          "Diseñar y desarrollar una página web para la agencia de modelos.",
+          "Implementar autenticación de usuarios mediante Firebase.",
+          "Crear una interfaz de administración para gestionar modelos y pagos.",
+          "Preparar el sitio para futuras integraciones y funciones, como un sistema de pagos en línea."
+        ],
+        "tecnologias": {
+          "front": "React, Tailwind CSS"
+        },
+        "enlace": "https://wilkaagency.pages.dev/"
+      }      
     ],
 
     "tecnologias": {
